@@ -296,9 +296,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_willow/android.hardware.nfc.hcef.xml \
     frameworks/native/data/etc/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_willow/android.hardware.nfc.uicc.xml
 
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+# Optimize
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
 # Power
 PRODUCT_PACKAGES += \
@@ -341,6 +343,7 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.xiaomi_parts.rc \
     ueventd.qcom.rc
 
 # RCS
@@ -471,6 +474,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+<<<<<<< HEAD
 # OTA
 PRODUCT_PACKAGES += \
     Updates
+=======
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+>>>>>>> 40792a6... [Squashed] ginkgo: Import XiaomiParts
