@@ -39,6 +39,9 @@ persist.vendor.ims.disableQXDMLogs=1
 # Incremental FS
 ro.incremental.enable=1
 
+# Gboard configuration
+ro.com.google.ime.kb_pad_port_b=1
+
 # LMKD
 ro.config.low_ram=false
 
