@@ -45,6 +45,6 @@
         "remote": "github",
         "repository": "whyredfire/android_vendor_miuicamera",
         "target_path": "vendor/miuicamera",
-        "branch": "fire"
+        "branch": "eleven"
     }
 ]
