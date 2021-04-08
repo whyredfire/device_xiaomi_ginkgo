@@ -1,0 +1,44 @@
+[
+    {
+        "remote": "github",
+        "repository": "spkal01/android_hardware_qcom_audio",
+        "target_path": "hardware/qcom-caf/sm8150/audio",
+        "branch": "fire"
+    },
+     {
+        "remote": "github",
+        "repository": "ArrowOS/android_hardware_qcom_media",
+        "target_path": "hardware/qcom-caf/sm8150/media",
+        "branch": "arrow-11.0-caf-sm8150"
+    }, 
+    {
+        "remote": "github",
+        "repository": "ArrowOS/android_hardware_qcom_display",
+        "target_path": "hardware/qcom-caf/sm8150/display",
+        "branch": "arrow-11.0-caf-sm8150"
+    },
+    {
+        "remote": "devices",
+        "repository": "kernel_xiaomi_ginkgo",
+        "target_path": "kernel/xiaomi/ginkgo",
+        "branch": "fire"
+    },
+    {
+        "remote": "devices",
+        "repository": "device_xiaomi_ginkgo",
+        "target_path": "device/xiaomi/ginkgo",
+        "branch": "fire"
+    },    
+    {
+        "remote": "devices",
+        "repository": "vendor_xiaomi_ginkgo",
+        "target_path": "vendor/xiaomi/ginkgo",
+        "branch": "fire"
+    },
+    {
+        "remote": "github",
+        "repository": "whyredfire/android_vendor_miuicamera",
+        "target_path": "vendor/miuicamera",
+        "branch": "fire"
+    }
+]
