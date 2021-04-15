@@ -28,6 +28,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_FACE_UNLOCK := true
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifier
 PRODUCT_NAME := aosp_ginkgo
