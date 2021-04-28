@@ -18,6 +18,12 @@
         "branch": "arrow-11.0-caf-sm8150"
     },
     {
+        "remote": "github",
+        "repository": "ArrowOS/android_vendor_qcom_opensource_power",
+        "target_path": "vendor/qcom/opensource/power",
+        "branch": "arrow-11.0"
+    },
+    {
         "remote": "devices",
         "repository": "kernel_xiaomi_ginkgo",
         "target_path": "kernel/xiaomi/ginkgo",
