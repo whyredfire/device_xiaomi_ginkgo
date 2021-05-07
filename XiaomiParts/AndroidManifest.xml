@@ -44,13 +44,15 @@
         <activity
             android:name=".DeviceSettingsActivity"
             android:exported="false"
-            android:icon="@drawable/ic_mi"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="1" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
 
             <meta-data
@@ -60,11 +62,14 @@
                 android:name="com.android.settings.bg.hint"
                 android:resource="@color/homepage_parts_background" />
             <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
-            <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/advanced_settings_summary" />
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+               android:name="com.android.settings.icon"
+               android:resource="@drawable/ic_parts_device" />
         </activity>
 
         <activity
