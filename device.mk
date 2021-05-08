@@ -474,12 +474,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-<<<<<<< HEAD
 # OTA
 PRODUCT_PACKAGES += \
     Updates
-=======
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
->>>>>>> 40792a6... [Squashed] ginkgo: Import XiaomiParts
