@@ -45,4 +45,5 @@ TARGET_LAUNCHER := lawnchair
 RR_BUILDTYPE := Milestone
 
 # Fingerprint
-BUILD_FINGERPRINT := google/coral/coral:11/RQ1A.210205.004/7038034:user/release-keys
+BUILD_FINGERPRINT := BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ2A.210505.003 7255357 release-keys
