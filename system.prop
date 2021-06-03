@@ -41,6 +41,7 @@ ro.incremental.enable=1
 
 # Gboard configuration
 ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.corner_key_r=35
 
 # LMKD
 ro.config.low_ram=false
