@@ -31,4 +31,4 @@ The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Un
 
 ![Redmi Note 8](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-8/specs1.png)
 
-Copyright (C) 2020 Paranoid Android.
+Copyright (C) 2021 SparkOS
